@@ -4,7 +4,7 @@ import Gif from './Gif';
 function Search() {
 
     const axios = require('axios');
-    
+    const giphy_key = "iMzW2Do85luc5nuegflBS52b1vcxGITE";
 
     const [data_img, set_data_img] = useState(null);
     const [query, set_query] = useState('');
