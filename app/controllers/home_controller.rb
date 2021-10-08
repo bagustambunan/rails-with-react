@@ -12,6 +12,7 @@ class HomeController < ApplicationController
         # @response = RestClient.get url
         # byebug
         @title = "Giphy App, with Rails + React"
+        @name = "Bagus Tambunan"
     end
 
     def dream

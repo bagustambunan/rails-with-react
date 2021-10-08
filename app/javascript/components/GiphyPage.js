@@ -9,6 +9,8 @@ function GiphyPage(props) {
 
                 <div className="w-full mt-5 mb-5 text-left">
                     <span className="mr-5 text-2xl font-bold mb-5 text-gray-600">{props.title}</span>
+                    <br/>
+                    <span className="mr-5 text-sm mb-5 text-gray-400">by {props.name}</span>
                 </div>
                 <Search />
 
